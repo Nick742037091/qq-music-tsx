@@ -1,0 +1,33 @@
+.header {
+  .flex();
+  .ai-center();
+}
+.arrow-down {
+  width: 18px;
+  height: 18px;
+  background-image: url('@/assets/icon_arrow_down.png');
+  background-size: 100%;
+}
+.tab-block {
+  .flex();
+  .ai-center();
+  margin: auto;
+  .tab {
+    user-select: none;
+    font-size: 13px;
+    color: lightgrey;
+    padding: 0 10px;
+  }
+  .tab--active {
+    color: white;
+  }
+  .tab + .tab {
+    border-left: solid 1px white;
+  }
+}
+.share {
+  width: 20px;
+  height: 20px;
+  background-image: url('@/assets/icon_share.png');
+  background-size: 100%;
+}
